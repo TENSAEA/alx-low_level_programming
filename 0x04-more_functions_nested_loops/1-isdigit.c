@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for characters that are digits
- * @c: character 
+ * _isdigit - check the given value is a digit
+ * @c: values to check
  *
- * Return: 0 or 1
+ * Return: 1 if digit else 0 (False)
+ *
  */
-
-
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
+	{
 		return (1);
-	else
-		return (0);
+	}
+	return (0);
 }
